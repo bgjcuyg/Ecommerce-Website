@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Roboto+Mono:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Roboto', sans-serif ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F29AC4;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-inline: 22px;
+}
+
+.logo{
+    font-size: 22px;
+    color: black;
+}
+.searchbar{
+    display: flex;
+}
+.searchbar input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    background-color: transparent;
+}
+.searchbar ion-icon{
+    margin-left: -30px;
+}
+.cart ion-icon{
+    font-size: 25px;
+}
+.cart p{
+    margin-left:11px ;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 133px;
+}
+.mainText{
+    margin-top: 44px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    margin-top: 22px;
+    width:140px ;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.mainText h1{
+    font-size: 60px;
+}
+.head{
+   text-align: center;
+   padding: 88px; 
+   color: white;
+}
+#shop{
+    background-color: black;
+    margin-top: 15px;
+}
+.shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.shops .card{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card button{
+    position: relative;
+    top: -38px;
+    width: 120px;
+    height: 35px;
+    background-color: gray;
+    color: black;
+    border: none;
+    font-size: 18px;
+}
+.card p{
+    color: white;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#gallery h1{
+    color: black;
+}
+.gallery img{
+    width: 300px;
+    height: 600px;
+    margin-inline: 22px;
+    margin-top: 18px;
+    align-items: center;
+}
+#Contact{
+    background-color: black;
+    margin-top: 15px;
+}
+.connect{
+    width: 400px;
+    padding: 22px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 3px gray;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -25px;
+    /* background-color: transparent; */
+}
+.connect input{
+    height: 12px;
+    width: 90%;
+    padding: 12px;
+    border: 1px solid black;
+    font-size: 18px;
+    outline: none;
+    margin-top: 22px;
+}
+.connect button{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    margin-top: 22px;
+    color:solid black;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+}
+.text p{
+    margin-top: 12px;
+}
