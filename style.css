@@ -11,7 +11,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #F29AC4;
+    background-color: gray;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -34,6 +34,14 @@ ul li a{
     font-size: 22px;
     color: black;
 }
+ hr{
+    border: none;
+    width:120px ;
+    height: 5px;
+    background:black;
+    border-radius: 10px;
+    margin-bottom: 20px ;  
+}
 .searchbar{
     display: flex;
 }
@@ -43,9 +51,11 @@ ul li a{
     border-bottom: 2px solid black;
     font-size: 18px;
     background-color: transparent;
+   
 }
 .searchbar ion-icon{
     margin-left: -30px;
+    cursor: pointer;
 }
 .cart ion-icon{
     font-size: 25px;
@@ -75,6 +85,10 @@ ul li a{
 }
 .mainText h1{
     font-size: 60px;
+}
+.main img{
+    width: 350px;
+    height: 300px;
 }
 .head{
    text-align: center;
@@ -163,11 +177,12 @@ ul li a{
     border-radius: 5px;
 }
 footer{
+    background-color: gray;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 66px;
-    margin-top: 66px;
+    /* margin-top: 66px; */
 }
 .text p{
     margin-top: 12px;
@@ -193,7 +208,7 @@ footer{
 .cartList ion-icon{
     position: relative;
     top: -70px;
-    right: -25px;
+    right: -5px;
     font-size: 28px;
     cursor: pointer;
 }
